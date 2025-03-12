@@ -5,6 +5,16 @@
     font-family: "Poppins", sans-serif;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  background: #1f1d21;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -169,11 +179,11 @@
 }
 
 .home-section {
-  position: relative; 
-  background: url(background.jpg) right no-repeat;
+  position: relative;
+  background: url(background.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
