@@ -182,7 +182,7 @@ body {
   background: url(background.jpg);
   background-size: cover;
   background-position: center;
-  height: 200vh;
+  height: 400vh;
   left: 260px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
@@ -277,10 +277,12 @@ body {
 
 /* ---- CONTAINER POUR LE ROSTER ---- */
 .roster-container {
+  background-image: url(background.jpg);
   flex-wrap: wrap;
   justify-content: center;
   flex: 1; /* Prend l'espace restant pour le contenu principal */
   padding: 20px;
+  margin: -10px;
   gap: 10px;
   font-size: 15px;
 }
