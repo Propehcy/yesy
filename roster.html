@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arishem's</title>
+    <title>Arishem</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,10 +11,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts/roster.js"></script>
     <!-- Boxicons CSS -->
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+
 
     
     <div class="sidebar">
@@ -35,7 +37,7 @@
             </li>
             <li>    
                 <div class="icons-link">
-                    <a href="cosmic.html">
+                    <a href="modes.html">
                         <i class='bx bx-collection'></i>
                         <span class="link_name">Modes</span>
                     </a>
@@ -118,17 +120,21 @@
                 
         </div>
 
-        <div class="texte">
-         Bienvenue sur le site officiel de l'alliance goatesque Arishem !✨ <br><br>
-         
-        </div>
 
-        <div class="sous-texte">
-            Voici les astuces qu'on a trouve ensemble pour la saison 14 <br><br> 
+        <div class="texte">
+         Bienvenue sur le site officiel de l'alliance goatesque Arishem  !✨ <br><br>
+        Roster de Bxnder
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Rechercher un personnage...">
         </div>
+    
+        
+        <div class="roster-container"></div>
+        </div>
+        
+        
 
     </section>
-
     <script>
 
         let arrow = document.querySelectorAll(".arrow");
@@ -147,7 +153,9 @@
         });
         </script>
         
-
+       
 
 </body>  
 </html>
+
+ 
