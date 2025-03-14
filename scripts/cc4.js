@@ -4,26 +4,36 @@ function retour_villes(le_dep)
 	
 	switch(le_dep)
 	{
-		case "001":
-		chaine_villes = "PF + BK + Diablo + Emma Xmen ▲▲▲ <br> test <br> test";
+		case "Illuminati Britain":
+		chaine_villes = "PF +Apo + Logan + Diablo ▲▲▲|Illuminati + Apo (sans BB) ▲▲|Cabale + PF ▲▲";
 		break;
-		case "26":
-		chaine_villes = "Bourg de P&eacute;age|Bourg l&egrave;s Valence|Ch&acirc;teauneuf sur Is&egrave;re|Crest|Dieulefit|Donz&egrave;re|Mont&eacute;limar|Nyons|Pierrelatte|Romans sur Is&egrave;re|Valence";
+		case "Imperissables + Mephisto":
+		chaine_villes = "Maitres du mal + Odin (sans Ultron) ▲";
 		break;
-		case "38":
-		chaine_villes = "Bourgoin Jallieu|Chamrousse|Echirolles|Grenoble|Meylan|Sassenage|Vienne|Voiron|Voreppe";
+		case "Odinati + Sasquatch (sans BB ni Mister Fantastic)":
+		chaine_villes = "PF - BK - Apo - Echo ▲ + clean up";
 		break;
-		case "69":
-		chaine_villes = "Sup6|Ecully|Givors|Lyon|Saint Priest|Ternay|Vaulx-en-Velin|Villefranche-sur-Sa&ocirc;ne|Villeurbanne";
+		case "Orchis":
+		chaine_villes = "Nightstalkers + Crecerelle (sans MK) ▲▲▲|Nightstalkers ▲▲▲|Conscience Collective + SUS (sans Venom) ▲▲▲";
 		break;
-		case "01": 
-		chaine_villes = "Chamb&eacute;ry|Le bourget du lac|Tournon|Voglans";
+		case "Orchis + Dormamu (sans Sentinel Omega)": 
+		chaine_villes = "Nighstalkers + Ares (sans MK) ▲▲▲";
 		break; /* Orchis */
-		case "Odinati":
-		chaine_villes = "PF + Apo + Echo + BK|Starjammers";
-		break;
+		case "Orchis + Emma Xmen (sans LDS)": 
+		chaine_villes = "Nightstalkers + Crecerelle + Emma Frost (sans MK ni Homme Chose ▲▲|Nightstalkers + Crecerelle (sans MK) ▲▲|Nightstalkers + Guardian (sans MK) ▲▲|Nightstalkers + Kang (sans MK) ▲▲|Annihilateurs + Apo (sans Surfer) ▲▲▲";
+		break; /* Orchis */
+		case "Orchis + Mephisto": 
+		chaine_villes = "Annihilateurs + Odin (sans Surfer) ▲▲";
+		break; /* Orchis */
+		case "Orchis + Mysterio": 
+		chaine_villes = "Conscience Collective + SUS (sans Venom) ▲▲▲";
+		break; /* Orchis */
+		case "Orchis + Strange (sans LDS)": 
+		chaine_villes = "Nightstalkers + Crecerelle (sans MK) ▲▲▲";
+		break; /* Orchis */
+		
+		
 	}
 	
 	return chaine_villes;
 }
-

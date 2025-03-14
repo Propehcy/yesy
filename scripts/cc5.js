@@ -4,26 +4,24 @@ function retour_villes(le_dep)
 	
 	switch(le_dep)
 	{
-		case "001":
-		chaine_villes = "PF + BK + Diablo + Emma Xmen ▲▲▲ <br> test <br> test";
+		case "Astral":
+		chaine_villes = "Cabale + Kang + Doom ▲▲▲|Mercenaires argent ▲▲▲";
 		break;
-		case "26":
-		chaine_villes = "Bourg de P&eacute;age|Bourg l&egrave;s Valence|Ch&acirc;teauneuf sur Is&egrave;re|Crest|Dieulefit|Donz&egrave;re|Mont&eacute;limar|Nyons|Pierrelatte|Romans sur Is&egrave;re|Valence";
+		case "IX (sans Cable ni Polaris)":
+		chaine_villes = "IX ▲▲▲";
 		break;
-		case "38":
-		chaine_villes = "Bourgoin Jallieu|Chamrousse|Echirolles|Grenoble|Meylan|Sassenage|Vienne|Voiron|Voreppe";
+		case "Xtrem X-men + Rogue (sans Cyclope)":
+		chaine_villes = "Cabale Kang Titania ▲▲▲|IX ▲▲▲";
 		break;
-		case "69":
-		chaine_villes = "Sup6|Ecully|Givors|Lyon|Saint Priest|Ternay|Vaulx-en-Velin|Villefranche-sur-Sa&ocirc;ne|Villeurbanne";
+		case "Xtrem X-men + Rogue (sans Diablo)":
+		chaine_villes = "Cabale Kang Titania ▲▲▲|IX ▲▲▲|Spiders Society + Black Cat (sans Noir) ▲▲▲";
 		break;
-		case "01": 
-		chaine_villes = "Chamb&eacute;ry|Le bourget du lac|Tournon|Voglans";
+		case "Xtrem X-men + Rogue (sans Solar)": 
+		chaine_villes = "Cabale Kang Titania ▲▲▲|Superior 6 + Vautour (sans Anti-Araignée) ▲▲▲ |IX ▲▲▲ |Cabale + Dormamu + Black Cat ▲▲|PF + Kang + Titania + Dormamu ▲▲|PF + Logan + Polaris + Cable ▲▲▲|Mercenaires argent ▲▲▲|Astral + Kang (sans Emma) ▲▲▲|Logan + Daken + Pandapool + Weaver + Spiderman 2099 ▲▲▲";
 		break; /* Orchis */
-		case "Odinati":
-		chaine_villes = "PF + Apo + Echo + BK|Starjammers";
-		break;
+		
+		
 	}
 	
 	return chaine_villes;
 }
-

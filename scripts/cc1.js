@@ -55,4 +55,3 @@ function retour_villes(le_dep)
 	return chaine_villes;
 }
 
-|

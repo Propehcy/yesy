@@ -8,7 +8,7 @@ function retour_villes(le_dep)
 		chaine_villes = "IX ▲▲▲|Cabale + Kang + Dormamu ▲▲▲";
 		break;
 		case "Astral + Dormamu":
-		chaine_villes = "Mercenaires d'argent + Noir (sans Deathpool) ▲▲";
+		chaine_villes = "Mercenaires argent + Noir (sans Deathpool) ▲▲";
 		break;
 		case "Gambit + Sunfire + Rogue + Forge + Cyclope":
 		chaine_villes = "Superior 6 + Vautour (sans Robot)▲▲";
