@@ -11,21 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
-    <script language='javascript' id='cible' src='scripts/villes_dep.js'></script>
+    <script language='javascript' id='cible' src='scripts/cc4.js'></script>
     <!-- Boxicons CSS -->
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
 
 
     
@@ -55,10 +45,10 @@
                 </div>
                 <ul class="sub-menu">
                     <li><a class="link_name" href="#">Categories</a></li>
-                    <li><a href="#">🚧 Guerre d'alliance 🚧</a></li>
+                    <li><a href="ga.html">🚧 Guerre d'alliance 🚧</a></li>
                     <li><a href="cosmic.html">Epreuve cosmique</a></li>
                     <li><a href="arena.html">Arene</a></li>
-                    <li><a href="arena.html">Raids</a></li>
+                    <li><a href="raid.html">🚧 Raids 🚧</a></li>
                 </ul>
             </li>
             <li>    
@@ -72,13 +62,13 @@
                 <ul class="sub-menu">
                     <li><a class="link_name" href="#">Post</a></li>
                     <li><a href="tuto.html">Phase Hebdo</a></li>
-                    <li><a href="#">🚧 Meta actuelle 🚧</a></li>
-                    <li><a href="#">🚧 Tier List 🚧</a></li>
+                    <li><a href="meta.html">🚧 Meta actuelle 🚧</a></li>
+                    <li><a href="tierlist.html">🚧 Tier List 🚧</a></li>
                 </ul>
             </li>
             <li>    
                 <div class="icons-link">
-                    <a href="#">
+                    <a href="roster.html">
                         <i class='bx bx-analyse'></i>
                         <span class="link_name">Analyses</span>
                     </a>
@@ -86,12 +76,12 @@
                 </div>
                 <ul class="sub-menu">
                     <li><a class="link_name" href="#">Post</a></li>
-                    <li><a href="#">🚧 Roster 🚧</a></li>
+                    <li><a href="roster.html">Roster</a></li>
                 </ul>
             </li>
             <li>    
                 <div class="icons-link">
-                    <a href="#">
+                    <a href="medias.html">
                         <i class='bx bx-link'></i>
                         <span class="link_name">Medias</span>
                     </a>
@@ -106,8 +96,8 @@
                 </ul>
             </li>
             <li>
-                <a href="#">
-                    <i class='bx bx-history'></i>
+                <a href="maj.html">
+                    <i class='bx bx-notification'></i>
                     <span class="link_name">🚧 Historique 🚧</span>
                 </a>
                 <ul class="sub-menu blank">
@@ -136,9 +126,13 @@
         </div>
 
         <div class="sous-texte">
-            Voici les astuces qu'on a trouve ensemble pour la saison 14 <br><br> 
+            <br><br> 
             <a href="cosmic.html"class="logo">Épreuve cosmique </a> <br><br> 
-            <a href="cosmics5.html"class="logo">Salle 5</a> <a href="cosmics6.html"class="logo">Salle 6</a>
+            <a href="cosmics1.html"class="logo">Salle 1</a>
+            <a href="cosmics2.html"class="logo">Salle 2</a>
+            <a href="cosmics3.html"class="logo">Salle 3</a> 
+            <a href="cosmics5.html"class="logo">Salle 5</a> 
+            <a href="cosmics6.html"class="logo">Salle 6</a>
         </div>
 
 
@@ -160,7 +154,7 @@
             <div style="float:left;width:10%;height:40px;"></div>
             <div style="float:left;width:80%;height:40px;text-align:center;">
             <div style="width:auto;display:block;text-align:center;background-color:#00000000;border:#ffffff 1px solid;color:#ffffff;">
-            <h1>Aide pour la salle en Épreuve Cosmique </h1>
+            <h1>Aide pour la salle en Épreuve Cosmique en salle 4 </h1>
             </div>
             </div>
                     
@@ -177,12 +171,15 @@
                     <div class="titre_centre">
                     <select id="choix_dep" class="liste" onChange="charger_villes()">
                         <option value="00">Sélectionnez une team adversaire</option>
-                        <option value="001">Aforce</option>
-                        <option value="26-Drome">26-Drome</option>
-                        <option value="38-Isère">38-Isère</option>
-                        <option value="69-Rhone">69-Rhone</option>
-                        <option value="01">Orchis</option>
-                        <option value="Odinati">Odinati</option>
+                        <option value="Illuminati Britain">Illuminati Britain</option>
+                        <option value="Imperissables + Mephisto">Imperissables + Mephisto</option>
+                        <option value="Odinati + Sasquatch (sans BB ni Mister Fantastic)">Odinati + Sasquatch (sans BB ni Mister Fantastic)</option>
+                        <option value="Orchis">Orchis</option>
+                        <option value="Orchis + Dormamu (sans Sentinel Omega)">Orchis + Dormamu (sans Sentinel Omega)</option>
+                        <option value="Orchis + Emma Xmen (sans LDS)">Orchis + Emma Xmen (sans LDS)</option>
+                        <option value="Orchis + Mephisto">Orchis + Mephisto</option>
+                        <option value="Orchis + Mysterio">Orchis + Mysterio</option>
+                        <option value="Orchis + Strange (sans LDS)">Orchis + Strange (sans LDS)</option>
                     </select>
                     
                     <div id="calque_ville" class="liste_div" style="float:right;">
@@ -191,16 +188,14 @@
                     </div>	
                 </div>		
             
-                <div class="colonne" id="colonne_gauche">
-                &nbsp;
+                <div class="colonneg" id="colonne_gauche">
                 </div>
-                <div class="colonne" id="colonne_droite">
-                &nbsp;
+                <div class="colonned" id="colonne_droite">
                 </div>
                 
                 <div class="centre">
                     <div class="titre_centre" id="titre_centre">
-                        Salle 6
+                        Tous les personnages : a la mort applique attaque augmente aux allies, trauma aux ennemis
                     </div>	
                 </div>					
                 
